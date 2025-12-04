@@ -1,0 +1,5 @@
+node_modules/
+api/Api-IA-HC/node_modules/
+.env
+.DS_Store
+*.log

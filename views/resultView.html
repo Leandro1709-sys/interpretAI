@@ -1,0 +1,14 @@
+  <!-- Vista de resultado -->
+  <div id="resultView" class="view">
+    <div id="result"></div>
+    <div class="feedbackButtons">
+      <button onclick="sendFeedback('like')">👍 Me gusta</button>
+      <button onclick="sendFeedback('dislike')">👎 No me gusta</button>
+    </div>
+    <div id="commentSection" class="commentSection">
+      <p style="margin-bottom: 1rem; color: #0ff; font-weight: 500;">¿Cómo podemos mejorar?</p>
+      <textarea id="commentInput" placeholder="Escribe tu comentario aquí..." required></textarea>
+      <button onclick="submitComment()">Enviar comentario</button>
+    </div>
+    <button onclick="reset()">← Nueva interpretación</button>
+  </div>
